@@ -1,14 +1,87 @@
 .btn{
-    position: absolute;
-    display: inline-block;
+    position: relative;
+    float: left;
+    display: block;
     box-sizing: border-box;
     min-height: 32px;
     min-width: 82px;
     border: none;
+    border-radius: 5px;
     font: regular 14px Arial, sans-serif;
     color: #FFF;
+    cursor: pointer;
 
     /* -------------------- */
     margin: 6px;    
     /* -------------------- */
+}
+
+.btn-primario {
+    background-color: #007bff;
+}
+
+.btn-primario:hover, .btn-primario:active {
+    background-color: #0264ce;
+}
+
+.btn-secundario {
+    background-color: #6c757d;
+}
+
+.btn-secundario:hover, .btn-secundario:active {
+    background-color: #5a6168;
+}
+
+.btn-sucesso {
+    background-color: #28a745;
+}
+
+.btn-sucesso:hover, .btn-sucesso:active {
+    background-color: #22913b;
+}
+
+.btn-perigo {
+    background-color: #dc3545;
+}
+
+.btn-perigo:hover, .btn-perigo:active {
+    background-color: #c0303e;
+}
+
+.btn-aviso {
+    background-color: #ffc107;
+}
+
+.btn-aviso:hover, .btn-aviso:active {
+    background-color: #dfa907;
+}
+
+.btn-informacao {
+    background-color: #17a2b8;
+}
+
+.btn-informacao:hover, .btn-informacao:active {
+    background-color: #138697;
+}
+
+.btn-claro {
+    background-color: #f8f9fa;
+    color: #272b30;
+}
+
+.btn-claro:hover, .btn-claro:active {
+    background-color: #dfe0e0;
+}
+
+.btn-escuro {
+    background-color: #343a40;
+}
+
+.btn-escuro:hover, .btn-escuro:active {
+    background-color: #272b30;
+}
+
+.btn-link {
+    background-color: transparent;
+    color: #007bff;;
 }
