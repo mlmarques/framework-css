@@ -1,0 +1,14 @@
+.btn{
+    position: absolute;
+    display: inline-block;
+    box-sizing: border-box;
+    min-height: 32px;
+    min-width: 82px;
+    border: none;
+    font: regular 14px Arial, sans-serif;
+    color: #FFF;
+
+    /* -------------------- */
+    margin: 6px;    
+    /* -------------------- */
+}
