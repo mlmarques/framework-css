@@ -3,8 +3,8 @@
     float: left;
     display: block;
     box-sizing: border-box;
-    min-height: 32px;
     min-width: 82px;
+    min-height: 32px;
     border: none;
     border-radius: 5px;
     font: regular 14px Arial, sans-serif;
@@ -12,8 +12,26 @@
     cursor: pointer;
 
     /* -------------------- */
-    margin: 6px;    
+    /* margin: 6px;     */
     /* -------------------- */
+}
+
+.btn-pequeno{
+    min-width: 62px;
+    min-height: 22px;
+    font-size: 12px;
+}
+
+.btn-grande{
+    min-width: 120px;
+    min-height: 52px;
+    font-size: 16px;
+}
+
+.btn-block{
+    width: 100%;
+    min-height: 52px;
+    font-size: 16px;
 }
 
 .btn-primario {
