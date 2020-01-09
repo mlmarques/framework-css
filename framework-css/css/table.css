@@ -5,6 +5,10 @@
     box-sizing: border-box;    
     font: regular 14px Arial, sans-serif;
     color: #272b30;
+
+    /* ------------------------------- */
+    margin: 12px;
+    /* ------------------------------- */
 }
 
 .tabela th, .tabela td {
@@ -25,4 +29,19 @@
 
 .tabela tbody tr:last-child{
     border-bottom: none;
+}
+
+.tabela-escura{
+    background-color: #272b30;
+    color: #FFF;
+}
+
+.cabecalho-claro{
+    background-color: #f8f9fa;
+    color: #272b30;
+}
+
+.cabecalho-escuro{
+    background-color: #272b30;
+    color: #FFF;
 }
