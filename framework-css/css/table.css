@@ -64,8 +64,20 @@
     border-bottom: 1px solid #c5ccd4;
 }
 
+.com-bordas th, .com-bordas td {
+    border: 1px solid #c5ccd4;
+}
+
 .sem-bordas tr{
     border: none;
+}
+
+.tabela-flutuar tbody tr:hover{
+    background-color: #d9e1eb;
+}
+
+.tabela-flutuar-escuro tbody tr:hover{
+    background-color: #40464e;
 }
 
 
